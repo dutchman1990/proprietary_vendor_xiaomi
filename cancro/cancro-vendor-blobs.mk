@@ -1,9 +1,13 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/xiaomi/cancro/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/xiaomi/cancro/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/xiaomi/cancro/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/cancro/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/cancro/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/cancro/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
@@ -12,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
     vendor/xiaomi/cancro/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/xiaomi/cancro/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
     vendor/xiaomi/cancro/proprietary/lib/libchromatix_imx215_liveshot.so:system/lib/libchromatix_imx215_liveshot.so \

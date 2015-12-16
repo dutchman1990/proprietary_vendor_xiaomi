@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/xiaomi/cancro/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/xiaomi/cancro/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/xiaomi/cancro/proprietary/lib/hw/activity_recognition.msm8974.so:system/lib/hw/activity_recognition.msm8974.so \
     vendor/xiaomi/cancro/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/cancro/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/cancro/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \

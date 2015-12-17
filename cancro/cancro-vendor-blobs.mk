@@ -65,6 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/xiaomi/cancro/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/xiaomi/cancro/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/cancro/proprietary/bin/adsprpcd:system/bin/adsprpcd \

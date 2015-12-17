@@ -29,7 +29,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    QuickBoot \
     shutdownlistener \
     TimeService
 

@@ -33,3 +33,4 @@ PRODUCT_PACKAGES += \
     TimeService
 
 $(call inherit-product, vendor/xiaomi/cancro/cancro-vendor-blobs.mk)
+$(call inherit-product, vendor/xiaomi/qcom/qcom-vendor-blobs.mk)

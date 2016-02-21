@@ -29,7 +29,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
 
-# Chromatix
+# dirac audio
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/cancro/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/cancro/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so
+
+# chromatix
 chromatix_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix*)
 PRODUCT_COPY_FILES += $(foreach file, $(chromatix_files), \
         $(file):system/vendor/lib/$(shell basename $(file)))
@@ -212,4 +217,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so
-
